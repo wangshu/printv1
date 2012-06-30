@@ -7,7 +7,7 @@ object frm_calcprint: Tfrm_calcprint
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -13
+  Font.Height = -10
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
@@ -15,18 +15,18 @@ object frm_calcprint: Tfrm_calcprint
   OnClose = FormClose
   OnCreate = FormCreate
   OnShow = FormShow
-  PixelsPerInch = 120
-  TextHeight = 16
+  PixelsPerInch = 96
+  TextHeight = 13
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 853
-    Height = 57
+    Width = 863
+    Height = 46
     Align = alTop
     Caption = 'Panel1'
     Font.Charset = ANSI_CHARSET
     Font.Color = clBlack
-    Font.Height = -27
+    Font.Height = -21
     Font.Name = #23435#20307
     Font.Style = [fsBold]
     ParentFont = False
@@ -34,53 +34,53 @@ object frm_calcprint: Tfrm_calcprint
   end
   object Panel2: TPanel
     Left = 0
-    Top = 422
-    Width = 853
-    Height = 105
+    Top = 455
+    Width = 863
+    Height = 85
     Align = alBottom
     TabOrder = 1
     object Label1: TLabel
-      Left = 18
-      Top = 16
-      Width = 41
-      Height = 21
+      Left = 15
+      Top = 13
+      Width = 33
+      Height = 17
       AutoSize = False
       Caption = #31471#21475
     end
     object Label2: TLabel
-      Left = 240
-      Top = 16
-      Width = 329
-      Height = 65
+      Left = 195
+      Top = 13
+      Width = 267
+      Height = 53
       AutoSize = False
       Caption = #21487#20197#20351#29992'['#21333#20215']'#65292'['#25968#37327']'#65292'['#37329#39069']'#65292'['#26085#26399']'#65292'['#26102#38388'] ,['#24037#21495'],['#25968#25454'],['#22823#37329'].['#36710#36947']'#20316#20026#21464#37327#36827#34892#25968#25454#26367#25442#12290
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clRed
-      Font.Height = -13
+      Font.Height = -11
       Font.Name = 'MS Sans Serif'
       Font.Style = []
       ParentFont = False
       WordWrap = True
     end
     object Label3: TLabel
-      Left = 16
-      Top = 48
-      Width = 73
-      Height = 21
+      Left = 13
+      Top = 39
+      Width = 59
+      Height = 17
       AutoSize = False
       Caption = #20351#29992#21327#35758
     end
     object Label4: TLabel
-      Left = 272
-      Top = 72
-      Width = 73
-      Height = 21
+      Left = 221
+      Top = 59
+      Width = 59
+      Height = 17
       AutoSize = False
       Caption = #24310#36831#26102#38388
     end
     object cxComboBox1: TcxComboBox
-      Left = 96
-      Top = 13
+      Left = 78
+      Top = 11
       Properties.Items.Strings = (
         'COM1'
         'COM2'
@@ -91,72 +91,72 @@ object frm_calcprint: Tfrm_calcprint
         'DEBUG')
       TabOrder = 0
       Text = 'COM1'
-      Width = 121
+      Width = 98
     end
     object cxComboBox3: TcxComboBox
-      Left = 96
-      Top = 48
+      Left = 78
+      Top = 39
       Properties.Items.Strings = (
         'Star'
         'Epson')
       TabOrder = 1
       Text = 'Star'
-      Width = 121
+      Width = 98
     end
     object Panel3: TPanel
-      Left = 667
+      Left = 712
       Top = 1
-      Width = 185
-      Height = 103
+      Width = 150
+      Height = 83
       Align = alRight
       BevelOuter = bvNone
       TabOrder = 2
       object cxButton1: TcxButton
-        Left = 22
-        Top = 24
-        Width = 75
-        Height = 25
+        Left = 18
+        Top = 20
+        Width = 61
+        Height = 20
         Caption = #25171#21360
         TabOrder = 0
         OnClick = cxButton1Click
       end
       object cxButton2: TcxButton
-        Left = 102
-        Top = 24
-        Width = 75
-        Height = 25
+        Left = 83
+        Top = 20
+        Width = 61
+        Height = 20
         Caption = #20851#38381
         TabOrder = 1
         OnClick = cxButton2Click
       end
     end
     object cxCheckBox1: TcxCheckBox
-      Left = 96
-      Top = 72
+      Left = 78
+      Top = 59
       Caption = #33258#21160#20445#23384
       TabOrder = 3
-      Width = 121
+      Width = 98
     end
     object cxSpinEdit1: TcxSpinEdit
-      Left = 368
-      Top = 72
+      Left = 299
+      Top = 59
       TabOrder = 4
       Value = 5
-      Width = 121
+      Width = 98
     end
   end
   object pnl1: TPanel
     Left = 0
-    Top = 57
-    Width = 853
-    Height = 64
+    Top = 46
+    Width = 863
+    Height = 52
     Align = alTop
     TabOrder = 2
     object btn1: TSpeedButton
-      Left = 144
-      Top = 8
-      Width = 49
-      Height = 49
+      Left = 117
+      Top = 7
+      Width = 40
+      Height = 39
       Glyph.Data = {
         361B0000424D361B000000000000360000002800000030000000300000000100
         180000000000001B000001000000010000000000000000000000FFFFFFFFFFFF
@@ -379,10 +379,10 @@ object frm_calcprint: Tfrm_calcprint
       OnClick = btn1Click
     end
     object btn2: TSpeedButton
-      Left = 208
-      Top = 8
-      Width = 49
-      Height = 49
+      Left = 169
+      Top = 7
+      Width = 40
+      Height = 39
       Glyph.Data = {
         361B0000424D361B000000000000360000002800000030000000300000000100
         180000000000001B000001000000010000000000000000000000FFFFFFFFFFFF
@@ -605,10 +605,10 @@ object frm_calcprint: Tfrm_calcprint
       OnClick = btn2Click
     end
     object SpeedButton1: TSpeedButton
-      Left = 80
-      Top = 8
-      Width = 49
-      Height = 49
+      Left = 65
+      Top = 7
+      Width = 40
+      Height = 39
       Glyph.Data = {
         361B0000424D361B000000000000360000002800000030000000300000000100
         180000000000001B000001000000010000000000000000000000000000000000
@@ -831,10 +831,10 @@ object frm_calcprint: Tfrm_calcprint
       OnClick = SpeedButton1Click
     end
     object SpeedButton2: TSpeedButton
-      Left = 16
-      Top = 9
-      Width = 49
-      Height = 49
+      Left = 13
+      Top = 7
+      Width = 40
+      Height = 40
       Glyph.Data = {
         361B0000424D361B000000000000360000002800000030000000300000000100
         180000000000001B000001000000010000000000000000000000000000000000
@@ -1058,10 +1058,10 @@ object frm_calcprint: Tfrm_calcprint
     end
   end
   object cxVerticalGrid1: TcxVerticalGrid
-    Left = 685
-    Top = 121
-    Width = 168
-    Height = 301
+    Left = 727
+    Top = 98
+    Width = 136
+    Height = 357
     Align = alRight
     OptionsView.RowHeaderWidth = 77
     TabOrder = 3
@@ -1217,33 +1217,33 @@ object frm_calcprint: Tfrm_calcprint
   end
   object cxGroupBox1: TcxGroupBox
     Left = 0
-    Top = 121
+    Top = 98
     Align = alLeft
     Caption = #25968#25454
     TabOrder = 4
-    Height = 301
-    Width = 161
+    Height = 357
+    Width = 131
     object cxGroupBox2: TcxGroupBox
       Left = 2
-      Top = 21
+      Top = 18
       Align = alTop
       TabOrder = 0
-      Height = 36
-      Width = 157
+      Height = 29
+      Width = 127
       object cxComboBox2: TcxComboBox
-        Left = 4
-        Top = 10
+        Left = 3
+        Top = 8
         Properties.OnChange = cxComboBox2PropertiesChange
         TabOrder = 0
         Text = 'cxComboBox2'
-        Width = 149
+        Width = 121
       end
     end
     object cxCheckListBox1: TcxCheckListBox
       Left = 2
-      Top = 57
-      Width = 157
-      Height = 242
+      Top = 47
+      Width = 127
+      Height = 308
       Align = alClient
       Items = <>
       PopupMenu = PopupMenu1

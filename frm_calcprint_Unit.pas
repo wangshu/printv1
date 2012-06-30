@@ -359,7 +359,6 @@ begin
             rdj := FormatFloat(cxVerticalGrid1EditorRow12.Properties.Value, cxVerticalGrid1EditorRow2.Properties.Value);
             rsl := cxVerticalGrid1EditorRow4.Properties.Value + Random(integer(cxVerticalGrid1EditorRow4.Properties.Value - cxVerticalGrid1EditorRow3.Properties.Value));
             rje := FormatFloat((cxVerticalGrid1EditorRow13.Properties.Value), cxVerticalGrid1EditorRow2.Properties.Value * strtofloat(rsl));
-            rsl := FormatFloat(cxVerticalGrid1EditorRow12.Properties.Value, StrToFloat(rsl));
             rcode := RandomInt(cxVerticalGrid1EditorRow7.Properties.Value, cxVerticalGrid1EditorRow6.Properties.Value, codeformat);
             Rdate := RandomDate(cxVerticalGrid1EditorRow8.Properties.Value, cxVerticalGrid1EditorRow9.Properties.Value, cxVerticalGrid1EditorRow15.Properties.Value);
             Rcd := RandomInt(0, 14, '0');

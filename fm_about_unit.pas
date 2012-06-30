@@ -5,7 +5,8 @@ interface
 uses
     Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
     Dialogs, cxGraphics, cxLookAndFeels, cxLookAndFeelPainters, Menus, cxControls,
-    cxContainer, cxEdit,StdCtrls, cxTextEdit, cxButtons, ExtCtrls, des, cxMemo;
+    cxContainer, cxEdit,StdCtrls, cxTextEdit, cxButtons, ExtCtrls, des, cxMemo,
+  dxSkinsCore, dxSkinsDefaultPainters;
 
 type
     Tfrm_about = class(TForm)
@@ -52,8 +53,8 @@ begin
         end;
           cxMemo1.Lines.Add('³ÌÐò°æ±¾:'+GetVersionString(Application.ExeName))  ;
         cxMemo1.Lines.Add(frm_main.loadAbout('about'))  ;
-  //  cxMemo1.Lines.Insert(1, 'QQ:7113321');
-  //  cxMemo1.Lines.Insert(1, 'kill_net');
+    cxMemo1.Lines.Insert(1, 'QQ:7113321');
+   cxMemo1.Lines.Insert(1, 'kill_net');
 end;
 
 procedure Tfrm_about.cxButton1Click(Sender: TObject);

@@ -4,12 +4,12 @@ object frm_about: Tfrm_about
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = #20851#20110
-  ClientHeight = 295
-  ClientWidth = 469
+  ClientHeight = 239
+  ClientWidth = 380
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -17
+  Font.Height = -14
   Font.Name = 'Tahoma'
   Font.Style = []
   KeyPreview = True
@@ -17,20 +17,20 @@ object frm_about: Tfrm_about
   Position = poScreenCenter
   OnKeyUp = FormKeyUp
   OnShow = FormShow
-  PixelsPerInch = 120
-  TextHeight = 21
+  PixelsPerInch = 96
+  TextHeight = 17
   object Panel1: TPanel
     Left = 0
-    Top = 254
-    Width = 469
-    Height = 41
+    Top = 206
+    Width = 380
+    Height = 33
     Align = alBottom
     TabOrder = 0
     object cxButton1: TcxButton
-      Left = 368
-      Top = 6
-      Width = 75
-      Height = 25
+      Left = 298
+      Top = 5
+      Width = 61
+      Height = 20
       Caption = #30830#23450
       TabOrder = 0
       OnClick = cxButton1Click
@@ -39,55 +39,55 @@ object frm_about: Tfrm_about
   object Panel2: TPanel
     Left = 0
     Top = 0
-    Width = 469
-    Height = 254
+    Width = 380
+    Height = 206
     Align = alClient
     TabOrder = 1
     object Label1: TLabel
-      Left = 40
-      Top = 215
-      Width = 57
-      Height = 20
+      Left = 32
+      Top = 174
+      Width = 47
+      Height = 16
       AutoSize = False
       Caption = #28608#27963#30721
     end
     object Label2: TLabel
-      Left = 40
-      Top = 159
-      Width = 57
-      Height = 20
+      Left = 32
+      Top = 129
+      Width = 47
+      Height = 16
       AutoSize = False
       Caption = #24207#21015#21495
     end
     object Label3: TLabel
-      Left = 120
-      Top = 158
-      Width = 74
-      Height = 20
+      Left = 97
+      Top = 128
+      Width = 60
+      Height = 16
       AutoSize = False
     end
     object lbl1: TLabel
-      Left = 40
-      Top = 183
-      Width = 321
-      Height = 20
+      Left = 32
+      Top = 148
+      Width = 260
+      Height = 16
       AutoSize = False
       Caption = #24207#21015#21495
     end
     object cxTextEdit1: TcxTextEdit
-      Left = 120
-      Top = 212
+      Left = 97
+      Top = 172
       TabOrder = 0
-      Width = 323
+      Width = 262
     end
     object cxMemo1: TcxMemo
-      Left = 40
-      Top = 24
+      Left = 32
+      Top = 19
       Lines.Strings = (
         #31080#25454#32508#21512#25171#21360#31995#32479)
       TabOrder = 1
-      Height = 129
-      Width = 393
+      Height = 105
+      Width = 319
     end
   end
 end
