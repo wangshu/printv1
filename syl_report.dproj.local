@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2010/12/07 13:50:01.821.pas,C:\Users\kill_net\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\kill_net\Documents\RAD Studio\Projects\fm_main.pas</Transaction>
+    <Transaction>2010/12/07 13:50:01.821.dfm,C:\Users\kill_net\Documents\RAD Studio\Projects\Unit2.dfm=C:\Users\kill_net\Documents\RAD Studio\Projects\fm_main.dfm</Transaction>
+    <Transaction>2010/12/07 13:50:25.537.pas,C:\Users\kill_net\Documents\RAD Studio\Projects\Unit3.pas=C:\Users\kill_net\Documents\RAD Studio\Projects\fm_edit.pas</Transaction>
+    <Transaction>2010/12/07 13:50:25.537.dfm,C:\Users\kill_net\Documents\RAD Studio\Projects\Unit3.dfm=C:\Users\kill_net\Documents\RAD Studio\Projects\fm_edit.dfm</Transaction>
+    <Transaction>2010/12/07 14:03:24.222.pas,C:\Users\kill_net\Documents\RAD Studio\Projects\fm_edit.pas=D:\Projects\胜意隆票据打印\fm_edit.pas</Transaction>
+    <Transaction>2010/12/07 14:03:24.222.dfm,C:\Users\kill_net\Documents\RAD Studio\Projects\fm_edit.dfm=D:\Projects\胜意隆票据打印\fm_edit.dfm</Transaction>
+    <Transaction>2010/12/07 14:15:34.747.pas,C:\Users\kill_net\Documents\RAD Studio\Projects\fm_main.pas=D:\Projects\胜意隆票据打印\fm_main.pas</Transaction>
+    <Transaction>2010/12/07 14:15:34.747.dfm,C:\Users\kill_net\Documents\RAD Studio\Projects\fm_main.dfm=D:\Projects\胜意隆票据打印\fm_main.dfm</Transaction>
+    <Transaction>2010/12/07 14:16:24.929.dproj,C:\Users\kill_net\Documents\RAD Studio\Projects\Project2.dproj=D:\Projects\胜意隆票据打印\syl_report.dproj</Transaction>
+    <Transaction>2010/12/07 14:41:39.437.pas,F:\最新的收费\前台收费2005-1\SYUNEW2ALib_TLB.pas=</Transaction>
+    <Transaction>2010/12/07 16:17:13.020.pas,D:\Projects\胜意隆票据打印\Unit1.pas=D:\Projects\胜意隆票据打印\fm_about.pas</Transaction>
+    <Transaction>2010/12/07 16:17:13.020.dfm,D:\Projects\胜意隆票据打印\Unit1.dfm=D:\Projects\胜意隆票据打印\fm_about.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{1661B592-C8B8-4282-9EF8-F64457C3C705}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="syl_report.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="syl_rport_dog.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="syl_report">
+			<MSBuild Projects="syl_report.dproj"/>
+		</Target>
+		<Target Name="syl_report:Clean">
+			<MSBuild Targets="Clean" Projects="syl_report.dproj"/>
+		</Target>
+		<Target Name="syl_report:Make">
+			<MSBuild Targets="Make" Projects="syl_report.dproj"/>
+		</Target>
+		<Target Name="syl_rport_dog">
+			<MSBuild Projects="syl_rport_dog.dproj"/>
+		</Target>
+		<Target Name="syl_rport_dog:Clean">
+			<MSBuild Targets="Clean" Projects="syl_rport_dog.dproj"/>
+		</Target>
+		<Target Name="syl_rport_dog:Make">
+			<MSBuild Targets="Make" Projects="syl_rport_dog.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="syl_report;syl_rport_dog"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="syl_report:Clean;syl_rport_dog:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="syl_report:Make;syl_rport_dog:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

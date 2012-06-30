@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2010/12/07 14:16:13.119.pas,C:\Users\kill_net\Documents\RAD Studio\Projects\Unit4.pas=D:\Projects\胜意隆票据打印\fm_dog_main.pas</Transaction>
+    <Transaction>2010/12/07 14:16:13.119.dfm,C:\Users\kill_net\Documents\RAD Studio\Projects\Unit4.dfm=D:\Projects\胜意隆票据打印\fm_dog_main.dfm</Transaction>
+    <Transaction>2010/12/07 14:16:32.209.dproj,C:\Users\kill_net\Documents\RAD Studio\Projects\Project3.dproj=D:\Projects\胜意隆票据打印\syl_rport_dog.dproj</Transaction>
+    <Transaction>2010/12/07 14:46:32.885.pas,D:\Projects\胜意隆票据打印\Unit1.pas=D:\Projects\胜意隆票据打印\syun_unit.pas</Transaction>
+  </Transactions>
+</BorlandProject>
