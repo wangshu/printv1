@@ -19,6 +19,7 @@ type
         Label3: TLabel;
         cxMemo1: TcxMemo;
         lbl1: TLabel;
+    Label4: TLabel;
         procedure FormShow(Sender: TObject);
         procedure cxButton1Click(Sender: TObject);
     procedure FormKeyUp(Sender: TObject; var Key: Word;
